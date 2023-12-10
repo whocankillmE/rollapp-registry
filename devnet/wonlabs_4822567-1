@@ -1,0 +1,33 @@
+{
+  "chainId": "wonlabs_4822567-1",
+  "chainName": "Won Labs Roll",
+  "rpc": "https://froopyland.dymension.xyz/13/wonlabs_4822567-1/rpc",
+  "rest": "https://froopyland.dymension.xyz/13/wonlabs_4822567-1/rest",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "WON",
+      "baseDenom": "uWON",
+      "decimals": 18,
+      "logo": "/logos/wonlabs_4822567-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/wonlabs_4822567-1.png",
+  "ibc": {
+    "hubChannel": "channel-6981",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0xfc905f",
+    "rpc": "https://froopyland.dymension.xyz/13/wonlabs_4822567-1/evmrpc"
+  },
+  "type": "RollApp",
+  "da": "Celestia",
+  "description": "",
+  "analytics": true
+}
